@@ -131,7 +131,7 @@ def main():
     print("")
 
     hex_translate = hex_convert(user_input)
-    print("The hexadecimal translation of {0} is {1}".format(user_input,
+    print("The hexadecimal translation of '{0}' is {1}".format(user_input,
                                                              hex_translate))
 
     print("")
